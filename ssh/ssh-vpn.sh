@@ -236,8 +236,12 @@ socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
 
 [dropbear]
-accept = 222
+accept = 443
 connect = 127.0.0.1:22
+
+[dropbear]
+accept = 222
+connect = 127.0.0.1:108
 
 [dropbear]
 accept = 777
